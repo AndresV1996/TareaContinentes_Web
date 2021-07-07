@@ -1,0 +1,181 @@
+
+header{
+    width: 100%; height: 250px;  
+    background-image: url(../img/sombra_03.png);
+    box-sizing: border-box;
+   /* box-sizing: border-box;*/
+}
+#enlaces1{
+    width: 100%; height: 60px;
+    /*colocar text centrado */
+    padding-top: 15px 0 0 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+#enlaces1 ul{
+    /* quitar bolitas al inicio de cada item */
+     list-style-type: none;
+     /*margen superior*/
+     margin: 0%; 
+     /*agregar espacio desde arriba*/
+     padding-top: 15px ;
+     background-color: #0071bc; text-align: center;
+     
+}
+#enlaces1 ul li{
+    /*hacer horizontal*/
+    display: inline-block;
+    /*separararlos*/
+    width: 25%;
+}
+body{ 
+    /*quitar el margen superior*/
+    margin: auto;
+    /*colocar tipo de letrar arial*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+.colorweb{
+    background-color: #0071bc;
+}
+.colorTexto{
+    color: #dddddd;
+}
+a{
+    /*poner color a la letra*/
+    color: white;
+    /*quitar subrayado de hipervinculo*/
+    text-decoration: none;
+}
+/* ------------------SECCION -------------------------2*/
+/*incluir funetes en la hoja de estilo*/
+/*----------logo*/
+@font-face {
+    font-family: letralogo; font-style: normal; font-weight: normal;
+    src: url(../fonts/new_zelek_[allfont.es].ttf);
+}
+#logo{
+    text-align: center; height:64px;
+    margin: 4px 5px 0 20px; width: 350px; font-family: letralogo; color: white; padding: 12px 0 0 0 ;
+    font-size: 30px;  box-sizing: border-box;
+}
+/*-----------------texto buscar=-------------*/
+.buscarPais{
+    width: 500px;height: 64px; line-height: 26px; padding: 11px 50px  11px  15px;
+    font-size: 1.9rem; background-color: #edeff1; border: 1px solid #d4d7d9; font-size: 29px;
+    margin:4px 0 0 0; border-radius: 2px 0 0 2px ;border-right: 0;text-transform: uppercase;
+    color: #575859; box-sizing: border-box; 
+
+}
+/* ========iconos ===================================*/
+.iconoBuscar{
+    width: 72px; height: 64px; border: 1px solid #d4d7d9; margin:4px 0 0 0;
+    text-align: center; padding-top: 10px; box-sizing: border-box;
+}
+.iconosDerecha{
+    width: 72px; height: 56px;  margin:4px 0 0 0 ;
+    text-align: center; padding-top: 10px; box-sizing: border-box;
+}
+.iconosDerecha span{
+    display: block;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.flotar_iz{
+    float: left;
+}
+.flotar_der{
+    float: right;
+}
+/*==NAV===========*/
+nav{
+
+    
+    padding-top: 15px ;
+    clear: both;
+
+}
+nav ul.menu{
+    /* quitar bolitas al inicio de cada item */
+    list-style-type: none;
+    text-align: center;
+
+}
+nav ul.menu li a{
+    color: #666666;   
+}
+nav ul.menu li a:hover{
+    color:chocolate;
+}
+nav ul.menu li{
+    /*hacer horizontal*/
+    display: inline-block;
+    /*separararlos*/
+    width: 20%;
+}
+ .cajaSection{
+     height: 1050; width: 90%; padding: 0 0 0 0; margin: 0 5% 0 5% ;
+       box-sizing: border-box;
+ }
+ .cajamapa{
+    height: 600px; width: 100%; box-sizing: border-box; margin: 0 0 0 0; padding: 0 0 0 0 ;
+     display: block;
+ }     
+
+section{
+        width: 100%; height: 450px; margin: 0 0 0 0; box-sizing: border-box; border: 1px solid blue;
+         background-color: #000000;
+
+    }
+section h1{
+    padding: 0 0 15px 0; text-align: center; ; margin: 30px 0 0 0; box-sizing: border-box;
+    font-size: 32px;
+    }
+
+
+.ImagenesHorizontal{ height: 340px;  width: 32%; ; padding: 3px 0 0 0 ; 
+         margin: 6.5px 8px 0 8px ;box-sizing: border-box;  text-align: center;
+    }
+.imagenes{
+    height: 200px; width: 300px; 
+}
+h2{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+section a{
+    
+        /*poner color a la letra*/
+        color: #dddddd;
+        /*quitar subrayado de hipervinculo*/
+        text-decoration: none;
+        font-size: 13px;
+}
+
+
+.textoProyecto{
+    text-align: center;
+
+}
+.seccionFinal{
+    padding: 19px 0 0 0;
+    height: 225px; width: 100%;
+    text-align: center;
+    
+    box-sizing: border-box;
+}
+ .textoProyecto span a:hover{
+    color:chocolate;
+}
+p{
+    align-content: center; font-size: 13px;
+    
+}
+.seccionFinal a:hover{
+    color: chocolate;
+}
+h3{
+    font-size: 15px;
+}
